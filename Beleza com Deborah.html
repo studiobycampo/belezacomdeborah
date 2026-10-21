@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Beleza com Deborah | Natura, Avon, O Boticário e mais</title>
+<meta name="description" content="Compre Natura, Avon, O Boticário, Eudora, Quem Disse, Berenice? e OUI com a Deborah. Acesse a loja de cada marca e acompanhe as novidades no Instagram.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#FBF3F4; --surface:#FFFFFF; --ink:#2A1B29; --muted:#6B5868;
+  --plum:#4A2447; --blush:#F4D3DA; --gold:#B5833A; --line:#EAD6DB;
+  --on-plum:#FFF6F7;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#1D111C; --surface:#2A1A29; --ink:#F6E9EC; --muted:#C2A9B8;
+    --plum:#E9B8C6; --blush:#4A2447; --gold:#D9A85C; --line:#432A41;
+    --on-plum:#2A1B29;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#1D111C; --surface:#2A1A29; --ink:#F6E9EC; --muted:#C2A9B8;
+  --plum:#E9B8C6; --blush:#4A2447; --gold:#D9A85C; --line:#432A41;
+  --on-plum:#2A1B29;
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Nunito Sans",system-ui,sans-serif;font-size:1.0625rem;line-height:1.6}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.wrap{max-width:62rem;margin:0 auto;padding:0 1.25rem}
+
+.hero{background:var(--blush);padding:4rem 0 3.5rem}
+.hero h1{font-family:"DM Serif Display",Georgia,serif;font-weight:400;font-size:clamp(2.6rem,9vw,5rem);line-height:1.02;margin:0 0 1rem;color:var(--plum);letter-spacing:-.01em}
+.hero p{max-width:34rem;margin:0 0 1.75rem;font-size:1.15rem}
+.btns{display:flex;flex-wrap:wrap;gap:.75rem}
+.btn{display:inline-block;padding:.85rem 1.4rem;border-radius:999px;font-weight:700;text-decoration:none;border:2px solid var(--plum)}
+.btn.main{background:var(--plum);color:var(--on-plum)}
+.btn.alt{color:var(--plum)}
+.btn:hover{opacity:.88}
+
+section{padding:3.5rem 0 0}
+h2{font-family:"DM Serif Display",Georgia,serif;font-weight:400;font-size:clamp(1.8rem,5vw,2.4rem);margin:0 0 .5rem;color:var(--plum)}
+.lead{color:var(--muted);margin:0 0 1.75rem;max-width:36rem}
+
+.stores{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.stores li{border-bottom:1px solid var(--line)}
+.store{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1.3rem .25rem;text-decoration:none}
+.store:hover{background:var(--surface)}
+.store strong{display:block;font-family:"DM Serif Display",Georgia,serif;font-weight:400;font-size:1.5rem;color:var(--ink)}
+.store span{color:var(--muted);font-size:.98rem}
+.go{flex:none;font-weight:700;color:var(--plum);border:2px solid var(--plum);border-radius:999px;padding:.4rem 1rem;white-space:nowrap}
+.store:hover .go{background:var(--plum);color:var(--on-plum)}
+.all .store strong{color:var(--gold)}
+
+.insta{margin-top:3.5rem;background:var(--plum);color:var(--on-plum);border-radius:1.5rem;padding:2.25rem 1.75rem}
+.insta h2{color:var(--on-plum)}
+.insta p{margin:0 0 1.5rem;max-width:34rem}
+.insta .btn{background:var(--on-plum);color:var(--plum);border-color:var(--on-plum)}
+
+footer{padding:3rem 0 3rem;color:var(--muted);font-size:.92rem}
+@media (max-width:30rem){
+  .hero{padding:3rem 0 2.75rem}
+  .go{padding:.35rem .8rem}
+}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <h1>Beleza com Deborah</h1>
+    <p>Natura, Avon, O Boticário e outras marcas que você ama, num só lugar. Escolha a loja e faça seu pedido com a Deborah.</p>
+    <div class="btns">
+      <a class="btn main" href="#lojas">Ver as lojas</a>
+      <a class="btn alt" href="https://www.instagram.com/belezacomdeborah/" target="_blank" rel="noopener">Seguir no Instagram</a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="lojas">
+    <h2>Minhas lojas</h2>
+    <p class="lead">Cada link abre a loja virtual da marca, já com a Deborah como sua consultora.</p>
+    <ul class="stores">
+      <li><a class="store" href="https://www.minhaloja.natura.com/consultoria/belezacomdeborah" target="_blank" rel="noopener"><div><strong>Natura e Avon</strong><span>Perfumaria, cuidados com a pele, corpo e cabelos</span></div><span class="go">Abrir loja</span></a></li>
+      <li><a class="store" href="https://minhaloja.boticario.com.br/deborah-v?utm_source=portal_bot&amp;utm_medium=catalogos-dos-ciclos" target="_blank" rel="noopener"><div><strong>O Boticário</strong><span>Perfumes, maquiagem e presentes</span></div><span class="go">Abrir loja</span></a></li>
+      <li><a class="store" href="https://minhaloja.eudora.com.br/deborah-v?utm_source=portal_bot&amp;utm_medium=catalogos-dos-ciclos" target="_blank" rel="noopener"><div><strong>Eudora</strong><span>Perfumaria, maquiagem e cuidados diários</span></div><span class="go">Abrir loja</span></a></li>
+      <li><a class="store" href="https://minhaloja.quemdisseberenice.com.br/deborah-v?utm_source=portal_bot&amp;utm_medium=catalogos-dos-ciclos" target="_blank" rel="noopener"><div><strong>Quem Disse, Berenice?</strong><span>Maquiagem e skincare</span></div><span class="go">Abrir loja</span></a></li>
+      <li><a class="store" href="https://minhaloja.ouiparis.com/deborah-v?utm_source=portal_bot&amp;utm_medium=catalogos-dos-ciclos" target="_blank" rel="noopener"><div><strong>OUI</strong><span>Perfumes inspirados na elegância de Paris</span></div><span class="go">Abrir loja</span></a></li>
+      <li class="all"><a class="store" href="https://minhaloja.grupoboticario.com.br/deborah-v?utm_source=portal_bot&amp;utm_medium=catalogos-dos-ciclos" target="_blank" rel="noopener"><div><strong>Todas as marcas do Grupo Boticário</strong><span>Um só carrinho para O Boticário, Eudora, Quem Disse, Berenice? e OUI</span></div><span class="go">Abrir loja</span></a></li>
+    </ul>
+  </section>
+
+  <section class="insta" id="instagram" style="padding:2.25rem 1.75rem">
+    <h2>Novidades no Instagram</h2>
+    <p>Lançamentos, promoções e dicas de uso são publicados em @belezacomdeborah. Siga para não perder nada.</p>
+    <a class="btn" href="https://www.instagram.com/belezacomdeborah/" target="_blank" rel="noopener">Abrir @belezacomdeborah</a>
+  </section>
+</main>
+
+<footer class="wrap">
+  <p>© Beleza com Deborah. Revendedora independente. As compras são finalizadas nos sites oficiais de cada marca.</p>
+</footer>
+</body>
+</html>
